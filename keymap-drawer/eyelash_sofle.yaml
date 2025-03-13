@@ -38,7 +38,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -59,7 +59,7 @@ layers:
   - $$mdi:keyboard-space$$
   - 2_Func
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '''', s: '"'}
   - LANG1
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
