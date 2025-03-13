@@ -1,5 +1,5 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 300  // 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 20   // 10
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 15   // 10
 
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
@@ -17,7 +17,7 @@
 
 &msc {
     acceleration-exponent = <0>;      // 0
-    time-to-max-speed-ms = <200>;     // 300
+    time-to-max-speed-ms = <300>;     // 300
     delay-ms = <0>;                   // 0
 };
 
@@ -33,7 +33,7 @@
         #sensor-binding-cells = <0>;
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
-        tap-ms = <50>;      // 100
+        tap-ms = <100>;      // 100
     };
 
     behaviors {
